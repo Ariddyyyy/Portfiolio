@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Inline CSS</title>
+</head>
+<body style="background-color: #f0f8ff; margin: 0; font-family: Arial, sans-serif;">
+
+    <!-- Title Div -->
+    <div style="text-align: center; background-color: #4CAF50; padding: 20px; color: white; font-size: 24px;">
+        Arianna Hansen's Portfolio
+    </div>
+
+    <!-- Buffer Div -->
+    <div style="margin: auto; text-align: center; width: 90%; padding: 20px;">
+        <!-- Three Horizontal Divs -->
+        <div style="display: inline-block; width: 30%; background-color: #ff9999; padding: 10px; margin: 10px;">Skills</div>
+        <div style="display: inline-block; width: 30%; background-color: #99ff99; padding: 10px; margin: 10px;">Education</div>
+        <div style="display: inline-block; width: 30%; background-color: #9999ff; padding: 10px; margin: 10px;">Experience</div>
+    </div>
+
+    <!-- Main Content -->
+    <div style="margin: 20px;">
+        <h2 style="text-align: center; color: #4CAF50;">Arianna Hansen</h2>
+        <p style="text-align: center;">8 Reservoir Ave, Port Jervis, NY 12771 | 845-645-2334 | <a href="mailto:ajhansen@albany.edu">ajhansen@albany.edu</a></p>
+
+        <h3 style="color: #4CAF50;">Education</h3>
+        <p><strong>2018-2022 Port Jervis High School</strong>, Port Jervis, NY</p>
+        <ul>
+            <li>Varsity Soccer, Basketball, Track & Field (9-12)</li>
+        </ul>
+        <p><strong>2022-2026 (Expected) SUNY at Albany</strong>, Albany, NY</p>
+        <ul>
+            <li>Sophomore majoring in Informatics (concentration in Data Analytics) (B.S)</li>
+        </ul>
+
+        <h3 style="color: #4CAF50;">Work Experience</h3>
+        <p><strong>Jul 2019-Sep 2021</strong> | Caterer at Chef on the Run, Port Jervis, NY</p>
+        <ul>
+            <li>Helped set up tables and decorations for events</li>
+            <li>Prepared and served food</li>
+            <li>Cleaned and bussed tables during events</li>
+        </ul>
+        <p><strong>Jun 2022-Aug 2022</strong> | Camp Counselor at Koinonia Summer Camp, Eldred, NY</p>
+        <ul>
+            <li>Facilitated activities such as hiking, games, and sports</li>
+            <li>Prepared lunch and ensured camper safety</li>
+        </ul>
+        <p><strong>Jun 2023-Aug 2023</strong> | Flooring Associate at The Home Depot, Matamoras, PA</p>
+        <ul>
+            <li>Assisted customers with flooring inquiries</li>
+            <li>Restocked returned items</li>
+        </ul>
+
+        <h3 style="color: #4CAF50;">Involvement</h3>
+        <p><strong>Jan 2023-Present</strong> | Treasurer/Member of Dazzling Dane Dolls Cheer Club, Albany, NY</p>
+        <ul>
+            <li>Created fundraisers, managed budgets, and supported UAlbany club sports events</li>
+        </ul>
+        <p><strong>Aug 2023-Present</strong> | Vice President of UAlbany Women’s Club Soccer, Albany, NY</p>
+        <ul>
+            <li>Helped manage the club and organized matches</li>
+        </ul>
+
+        <h3 style="color: #4CAF50;">Skills</h3>
+        <p>Leadership Experience, Time Management, Works well under pressure, Quick Thinking, Organizational</p>
+    </div>
+</body>
+</html>
